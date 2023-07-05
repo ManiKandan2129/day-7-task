@@ -1,6 +1,6 @@
 //Get all the countries with a population of less than 2 lakhs using Filter function
 
-var xml = new XMLHttpRequest();
+            var xml = new XMLHttpRequest();
             var method = "GET";
             var url = "https://restcountries.com/v3.1/all";
             xml.open(method,url);
